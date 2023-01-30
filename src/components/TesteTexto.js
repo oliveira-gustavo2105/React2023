@@ -1,7 +1,9 @@
+import styles from './TesteTexto.module.css'
+
 function TesteTexto(){
     return(
-        <div>
-            <p>Mais um dia estudando React</p>
+        <div className={styles.textoContainer}>
+            <p className={styles.textoContent}>Mais um dia estudando React</p>
         </div>
             )
 }

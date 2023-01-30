@@ -1,23 +1,24 @@
 import './App.css';
 import Pessoa from './components/Pessoa';
-import SalveMundo from './components/SalveMundo';
-import SayMyName from './components/SayMyName';
+import TesteTexto from './components/TesteTexto';
+// import SalveMundo from './components/SalveMundo';
+// import SayMyName from './components/SayMyName';
+
 
 function App() {
-  const name="gugu"
+  // const name="gugu"
 
   return (
     <div className="App">
       <h1>Estudando React Segundo Dia</h1>
       <br></br>
 
-      <SayMyName nome="Guga" />
-      <SayMyName nome={name} />
+      <TesteTexto/>
       <Pessoa 
       nome="Guga"
       idade="19"
       profissao="Dev"
-      foto="https://via.placeholder.com/150"
+      foto="C:\Users\gugat\Pictures\eu.jpeg"
       />
     
     </div>

@@ -1,0 +1,10 @@
+.textoContainer{
+    background-color: grey;
+    border: 1px solid black;        
+}
+
+.textoContent{
+    color: azure;
+    background-color: grey;
+    margin: 0;
+}
