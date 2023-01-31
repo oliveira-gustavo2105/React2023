@@ -1,6 +1,9 @@
 import './App.css';
-import Pessoa from './components/Pessoa';
-import TesteTexto from './components/TesteTexto';
+import Evento from './components/Evento';
+import Form from './components/Form';
+// import List from './components/List';
+// import Pessoa from './components/Pessoa';
+// import TesteTexto from './components/TesteTexto';
 // import SalveMundo from './components/SalveMundo';
 // import SayMyName from './components/SayMyName';
 
@@ -10,17 +13,12 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Estudando React Segundo Dia</h1>
-      <br></br>
+      <h1> Eventos</h1>
 
-      <TesteTexto/>
-      <Pessoa 
-      nome="Guga"
-      idade="19"
-      profissao="Dev"
-      foto="C:\Users\gugat\Pictures\eu.jpeg"
-      />
-    
+      <Evento />
+
+      <Form />
+
     </div>
   );
 }
